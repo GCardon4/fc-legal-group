@@ -151,10 +151,10 @@
         doAnimations($animatingElements);    
     });
     $('.hero-slider-one').slick({
-        dots: false,
+        dots: true,
 		arrows: true,
-        infinite: false,
-		autoplaySpeed: 1500,
+        infinite: true,
+		autoplaySpeed: 5000,
         fade: true,
         autoplay: true,
         prevArrow: '<div class="prev"><i class="far fa-arrow-left"></i></div>',
